@@ -12,12 +12,12 @@ from networkx.algorithms import bipartite
 
 
 # Pulling biadjaceny matrix info from the A.csv file
-Acsvfile = open('/obin1/graph-cycles/GEOS-Chem/BiadjacencyMatrix.csv','r')
+Acsvfile = open('BiadjacencyMatrix.csv','r')
 data = Acsvfile.read()
 Adata = data.split()
 # remove the extra commas between value entries in the A.csv file
 Adatalist = []
-for i in range(0, len(Adata)):
+for i in range(6, len(Adata)):
     if Adata[i] != ',':
         Adatalist.append(float(Adata[i])) # how to get more precision in the floating value?
 Acsvfile.close()
@@ -47,7 +47,7 @@ n_spc = max(rows) # n_spc returning 287 when there are 291 species in txt file?
 n_rxn = max(cols)
 
 # obtaining species and converting to list from SPC_NAMES.txt
-my_file = open('/obin1/graph-cycles/GEOS-Chem/SPC_NAMES.txt', "rt")
+my_file = open('SPC_NAMES.txt', "rt")
 data = my_file.read()
 species = data.split()
 my_file.close()
@@ -76,6 +76,6 @@ cycleslist = []
 B_cycles = nx.simple_cycles(B)
 
 num_cycle = 0
-while num_cycle < 1000000000000:
+while num_cycle < 101:
     next(B_cycles)
     num_cycle += 1
