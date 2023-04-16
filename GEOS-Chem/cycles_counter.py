@@ -76,6 +76,6 @@ cycleslist = []
 B_cycles = nx.simple_cycles(B)
 
 num_cycle = 0
-while num_cycle < 101:
+while num_cycle < 1e9:
     next(B_cycles)
     num_cycle += 1

@@ -1,29 +1,29 @@
  SALAAL + O3 + SO2 --> LOx + PSO4 + SO4 - SALAAL                                                     
       SALAAL + HCl --> SALACL                                                                        
-     SALAAL + HNO3 --> LOx + NIT                                                                     
+     SALAAL + HNO3 --> NIT                                                                           
  SALCAL + O3 + SO2 --> SO4s + LOx - SALCAL                                                           
       SALCAL + HCl --> SALCCL                                                                        
-     SALCAL + HNO3 --> LOx + NITs                                                                    
+     SALCAL + HNO3 --> NITs                                                                          
         H2O2 + SO2 --> PSO4 + SO4                                                                    
           O3 + SO2 --> LOx + PSO4 + SO4                                                              
                SO2 --> PSO4 + SO4                                                                    
         CH2O + SO2 --> HMS                                                                           
                HMS --> CH2O + SO2                                                                    
           HMS + OH --> 2 PSO4 + 2 SO4 + CH2O - SO2                                                   
-           O3 + NO --> NO2 + O2                                                                      
+           O3 + NO --> LOx + NO2 + O2                                                                
            O3 + OH --> LOx + HO2 + O2                                                                
           O3 + HO2 --> LOx + OH + 2 O2                                                               
-          O3 + NO2 --> NO3 + O2                                                                      
+          O3 + NO2 --> LOx + NO3 + O2                                                                
           MO2 + O3 --> LOx + CH2O + HO2 + O2                                                         
-              2 OH --> POx + H2O + O                                                                 
+              2 OH --> H2O + O                                                                       
               2 OH --> PH2O2 + H2O2                                                                  
           OH + HO2 --> H2O + O2                                                                      
          H2O2 + OH --> H2O + HO2                                                                     
-          NO + HO2 --> POx + NO2 + OH                                                                
+          NO + HO2 --> NO2 + OH                                                                      
              2 HO2 --> PH2O2 + H2O2 + O2                                                             
            CO + OH --> CO2 + LCO + HO2                                                               
           CH4 + OH --> LCH4 + MO2 + H2O                                                              
-          MO2 + NO --> POx + CH2O + NO2 + HO2                                                        
+          MO2 + NO --> CH2O + NO2 + HO2                                                              
           MO2 + NO --> MENO3                                                                         
          MO2 + HO2 --> MP + O2                                                                       
              2 MO2 --> MOH + CH2O + O2                                                               
@@ -35,52 +35,52 @@
         ATOOH + OH --> MGLY + H2O + OH                                                               
          CH2O + OH --> PCO + CO + H2O + HO2                                                          
           NO2 + OH --> HNO3                                                                          
-         HNO3 + OH --> POx + H2O + NO3                                                               
+         HNO3 + OH --> H2O + NO3                                                                     
            OH + NO --> HNO2                                                                          
-         HNO2 + OH --> POx + NO2 + H2O                                                               
+         HNO2 + OH --> NO2 + H2O                                                                     
          NO2 + HO2 --> HNO4                                                                          
               HNO4 --> NO2 + HO2                                                                     
          HNO4 + OH --> NO2 + H2O + O2                                                                
-         HO2 + NO3 --> LOx + NO2 + OH + O2                                                           
+         HO2 + NO3 --> NO2 + OH + O2                                                                 
           NO + NO3 --> 2 NO2                                                                         
-          OH + NO3 --> LOx + NO2 + HO2                                                               
+          OH + NO3 --> NO2 + HO2                                                                     
          NO2 + NO3 --> N2O5                                                                          
               N2O5 --> NO2 + NO3                                                                     
         HCOOH + OH --> CO2 + H2O + HO2                                                               
           MOH + OH --> CH2O + HO2                                                                    
-         NO2 + NO3 --> 2 LOx + NO2 + NO + O2                                                         
-        CH2O + NO3 --> LOx + PCO + CO + HNO3 + HO2                                                   
+         NO2 + NO3 --> NO2 + NO + O2                                                                 
+        CH2O + NO3 --> PCO + CO + HNO3 + HO2                                                         
          ALD2 + OH --> 0.05 PCO + 0.95 MCO3 + 0.05 CO + 0.05 CH2O + H2O + 0.05 HO2                   
-        ALD2 + NO3 --> LOx + MCO3 + HNO3                                                             
+        ALD2 + NO3 --> MCO3 + HNO3                                                                   
         MCO3 + NO2 --> PAN                                                                           
                PAN --> MCO3 + NO2                                                                    
-         MCO3 + NO --> CO2 + POx + MO2 + NO2                                                         
+         MCO3 + NO --> CO2 + MO2 + NO2                                                               
          C2H6 + OH --> ETO2 + H2O                                                                    
-         ETO2 + NO --> POx + ALD2 + NO2 + HO2                                                        
+         ETO2 + NO --> ALD2 + NO2 + HO2                                                              
          ETO2 + NO --> ETNO3                                                                         
-       OTHRO2 + NO --> POx + ALD2 + NO2 + HO2                                                        
+       OTHRO2 + NO --> ALD2 + NO2 + HO2                                                              
          C3H8 + OH --> B3O2                                                                          
          C3H8 + OH --> A3O2                                                                          
-         A3O2 + NO --> POx + RCHO + NO2 + HO2                                                        
+         A3O2 + NO --> RCHO + NO2 + HO2                                                              
          A3O2 + NO --> NPRNO3                                                                        
-          PO2 + NO --> POx + ALD2 + CH2O + NO2 + HO2                                                 
+          PO2 + NO --> ALD2 + CH2O + NO2 + HO2                                                       
          ALK4 + OH --> R4O2                                                                          
-         R4O2 + NO --> POx + 0.32 ACET + 0.19 MEK + 0.05 A3O2 + 0.32 OTHRO2 + 0.18 B3O2 + 0.1... etc.
-         R4O2 + NO --> POx + R4N2                                                                    
-         R4N1 + NO --> POx + 0.57 RCHO + 0.86 ALD2 + 0.57 CH2O + 2 NO2                               
-         ATO2 + NO --> POx + MCO3 + CH2O + NO2                                                       
-          KO2 + NO --> POx + 0.07 R4N2 + 0.93 MCO3 + 0.93 ALD2 + 0.93 NO2                            
-         B3O2 + NO --> POx + ACET + NO2 + HO2                                                        
+         R4O2 + NO --> 0.32 ACET + 0.19 MEK + 0.05 A3O2 + 0.32 OTHRO2 + 0.18 B3O2 + 0.14 RCHO... etc.
+         R4O2 + NO --> R4N2                                                                          
+         R4N1 + NO --> 0.57 RCHO + 0.86 ALD2 + 0.57 CH2O + 2 NO2                                     
+         ATO2 + NO --> MCO3 + CH2O + NO2                                                             
+          KO2 + NO --> 0.07 R4N2 + 0.93 MCO3 + 0.93 ALD2 + 0.93 NO2                                  
+         B3O2 + NO --> ACET + NO2 + HO2                                                              
          B3O2 + NO --> IPRNO3                                                                        
-         PRN1 + NO --> POx + ALD2 + CH2O + 2 NO2                                                     
-        ALK4 + NO3 --> LOx + R4O2 + HNO3                                                             
+         PRN1 + NO --> ALD2 + CH2O + 2 NO2                                                           
+        ALK4 + NO3 --> R4O2 + HNO3                                                                   
          R4N2 + OH --> R4N1 + H2O                                                                    
          ACTA + OH --> CO2 + MO2 + H2O                                                               
          RCHO + OH --> RCO3 + H2O                                                                    
         RCO3 + NO2 --> PPN                                                                           
                PPN --> RCO3 + NO2                                                                    
-         RCO3 + NO --> POx + 0.07 A3O2 + 0.5 OTHRO2 + 0.27 B3O2 + NO2                                
-        RCHO + NO3 --> LOx + RCO3 + HNO3                                                             
+         RCO3 + NO --> 0.07 A3O2 + 0.5 OTHRO2 + 0.27 B3O2 + NO2                                      
+        RCHO + NO3 --> RCO3 + HNO3                                                                   
          ACET + OH --> ATO2 + H2O                                                                    
         A3O2 + MO2 --> 0.25 ROH + 0.25 MOH + 0.75 RCHO + 0.75 CH2O + HO2                             
          PO2 + MO2 --> 0.25 ROH + 0.25 MOH + 0.16 HAC + 0.09 RCHO + 0.5 ALD2 + 1.25 CH2O + HO2       
@@ -93,7 +93,7 @@
           MEK + OH --> KO2 + H2O                                                                     
         ETO2 + MO2 --> 0.25 EOH + 0.25 MOH + 0.75 ALD2 + 0.75 CH2O + HO2                             
       OTHRO2 + MO2 --> 0.25 EOH + 0.25 MOH + 0.75 ALD2 + 0.75 CH2O + HO2                             
-         MEK + NO3 --> LOx + KO2 + HNO3                                                              
+         MEK + NO3 --> KO2 + HNO3                                                                    
         R4O2 + MO2 --> 0.25 ROH + 0.25 MOH + 0.16 ACET + 0.35 MEK + 0.03 A3O2 + 0.16 OTHRO2 +... etc.
         R4N1 + MO2 --> 0.25 ROH + 0.25 MOH + 0.15 R4O2 + 0.54 RCHO + 0.38 ALD2 + 0.95 CH2O + ... etc.
         ATO2 + MO2 --> 0.5 MOH + 0.5 MGLY + 0.2 HAC + 0.3 MCO3 + 0.5 CH2O + 0.3 HO2                  
@@ -115,11 +115,11 @@
          PRPE + O3 --> LOx + 0.56 PCO + 0.1 CH4 + 0.12 CH3CHOO + 0.12 CH2OO + 0.56 CO + 0.5 A... etc.
          GLYC + OH --> 0.361 CO2 + 0.505 PCO + 0.134 HCOOH + 0.134 GLYX + 0.505 CO + 0.732 CH... etc.
          GLYC + OH --> PCO + HCOOH + CO + OH                                                         
-        PRPE + NO3 --> LOx + PRN1                                                                    
+        PRPE + NO3 --> PRN1                                                                          
          GLYX + OH --> 2 PCO + 2 CO + HO2                                                            
          MGLY + OH --> PCO + MCO3 + CO                                                               
-        GLYX + NO3 --> LOx + 2 PCO + 2 CO + HNO3 + HO2                                               
-        MGLY + NO3 --> LOx + PCO + MCO3 + CO + HNO3                                                  
+        GLYX + NO3 --> 2 PCO + 2 CO + HNO3 + HO2                                                     
+        MGLY + NO3 --> PCO + MCO3 + CO + HNO3                                                        
           HAC + OH --> MGLY + HO2                                                                    
           HAC + OH --> 0.5 CO2 + 0.5 PCO + 0.5 HCOOH + 0.5 ACTA + 0.5 CO + 0.5 MO2 + OH              
        A3O2 + MCO3 --> RCHO + MO2 + HO2                                                              
@@ -137,7 +137,7 @@
            PP + OH --> 0.209 PO2 + 0.791 HAC + 0.791 OH                                              
          LVOC + OH --> OH                                                                            
           MAP + OH --> MCO3                                                                          
-        C2H6 + NO3 --> LOx + ETO2 + HNO3                                                             
+        C2H6 + NO3 --> ETO2 + HNO3                                                                   
             2 MCO3 --> 2 MO2                                                                         
         MCO3 + MO2 --> CH2O + MO2 + HO2                                                              
         MCO3 + MO2 --> ACTA + CH2O                                                                   
@@ -158,25 +158,25 @@
        ETO2 + MCO3 --> ACTA + ALD2                                                                   
      OTHRO2 + MCO3 --> ACTA + ALD2                                                                   
        RCO3 + MCO3 --> 0.07 A3O2 + 0.5 OTHRO2 + 0.27 B3O2 + MO2                                      
-             2 NO3 --> 2 LOx + 2 NO2 + O2                                                            
+             2 NO3 --> 2 NO2 + O2                                                                    
          MO2 + NO2 --> MPN                                                                           
                MPN --> MO2 + NO2                                                                     
           DMS + OH --> CH2O + MO2 + SO2                                                              
           DMS + OH --> 0.25 MSA + MO2 + 0.75 SO2                                                     
-         DMS + NO3 --> LOx + HNO3 + CH2O + MO2 + SO2                                                 
+         DMS + NO3 --> HNO3 + CH2O + MO2 + SO2                                                       
           OH + SO2 --> PSO4 + SO4 + HO2                                                              
-           O3 + Br --> BrO + O2                                                                      
+           O3 + Br --> LOx + BrO + O2                                                                
          BrO + HO2 --> HOBr + O2                                                                     
           HO2 + Br --> HBr + O2                                                                      
           HBr + OH --> H2O + Br                                                                      
-             2 BrO --> 2 LOx + 2 Br + O2                                                             
-             2 BrO --> 2 LOx + Br2 + O2                                                              
+             2 BrO --> 2 Br + O2                                                                     
+             2 BrO --> Br2 + O2                                                                      
           BrO + NO --> NO2 + Br                                                                      
         BrNO3 + Br --> Br2 + NO3                                                                     
-          Br2 + OH --> POx + HOBr + Br                                                               
-          HOBr + O --> LOx + BrO + OH                                                                
-           HBr + O --> LOx + OH + Br                                                                 
-          BrO + OH --> LOx + HO2 + Br                                                                
+          Br2 + OH --> HOBr + Br                                                                     
+          HOBr + O --> BrO + OH                                                                      
+           HBr + O --> OH + Br                                                                       
+          BrO + OH --> HO2 + Br                                                                      
           NO3 + Br --> NO2 + BrO                                                                     
          CH2O + Br --> PCO + CO + HBr + HO2                                                          
          ALD2 + Br --> MCO3 + HBr                                                                    
@@ -188,47 +188,47 @@
         CHBr3 + OH --> 3 Br                                                                          
        CH2Br2 + OH --> 2 Br                                                                          
         CH3Br + OH --> H2O + HO2 + Br                                                                
-         O1D + H2O --> LOx + 2 OH                                                                    
+         O1D + H2O --> 2 OH                                                                          
           O1D + N2 --> O + N2                                                                        
           O1D + O2 --> O + O2                                                                        
-          O1D + H2 --> LOx + H + OH                                                                  
-         N2O + O1D --> LOx + N2 + O2                                                                 
-         N2O + O1D --> LOx + 2 NO                                                                    
-         CH4 + O1D --> LOx + LCH4 + MO2 + OH                                                         
-         CH4 + O1D --> LOx + LCH4 + CH2O + H2                                                        
-         CH4 + O1D --> LOx + LCH4 + H + CH2O + HO2                                                   
-            O + O2 --> O3                                                                            
-            O3 + O --> 2 LOx + 2 O2                                                                  
+          O1D + H2 --> H + OH                                                                        
+         N2O + O1D --> N2 + O2                                                                       
+         N2O + O1D --> 2 NO                                                                          
+         CH4 + O1D --> LCH4 + MO2 + OH                                                               
+         CH4 + O1D --> LCH4 + CH2O + H2                                                              
+         CH4 + O1D --> LCH4 + H + CH2O + HO2                                                         
+            O + O2 --> POx + O3                                                                      
+            O3 + O --> LOx + 2 O2                                                                    
            OH + H2 --> H + H2O                                                                       
-            OH + O --> LOx + H + O2                                                                  
-           HO2 + O --> LOx + OH + O2                                                                 
-          O1D + O3 --> 2 LOx + 2 O2                                                                  
-          O1D + O3 --> 2 O + O2                                                                      
-           OCS + O --> LOx + PCO + CO + SO2                                                          
+            OH + O --> H + O2                                                                        
+           HO2 + O --> OH + O2                                                                       
+          O1D + O3 --> LOx + 2 O2                                                                    
+          O1D + O3 --> LOx + 2 O + O2                                                                
+           OCS + O --> PCO + CO + SO2                                                                
           OCS + OH --> CO2 + SO2                                                                     
-           NO2 + O --> 2 LOx + NO + O2                                                               
-           NO3 + O --> 2 LOx + NO2 + O2                                                              
+           NO2 + O --> NO + O2                                                                       
+           NO3 + O --> NO2 + O2                                                                      
             NO + O --> NO2                                                                           
            NO2 + O --> NO3                                                                           
-          H2O2 + O --> LOx + OH + HO2                                                                
+          H2O2 + O --> OH + HO2                                                                      
             H + O2 --> HO2                                                                           
             H + O3 --> LOx + OH + O2                                                                 
            H + HO2 --> 2 OH                                                                          
-           H + HO2 --> POx + H2O + O                                                                 
+           H + HO2 --> H2O + O                                                                       
            H + HO2 --> H2 + O2                                                                       
-            N + O2 --> POx + NO + O                                                                  
-            N + NO --> POx + O + N2                                                                  
+            N + O2 --> NO + O                                                                        
+            N + NO --> O + N2                                                                        
            N + NO2 --> N2O + O                                                                       
-           BrO + O --> 2 LOx + Br + O2                                                               
-          CH2O + O --> LOx + PCO + CO + OH + HO2                                                     
-         O1D + HCl --> 0.67 LOx + 0.24 H + 0.09 HCl + 0.24 ClO + 0.67 OH + 0.09 O + 0.67 Cl          
-         O1D + HBr --> 0.65 LOx + 0.15 H + 0.2 HBr + 0.15 BrO + 0.65 OH + 0.2 O + 0.65 Br            
+           BrO + O --> Br + O2                                                                       
+          CH2O + O --> PCO + CO + OH + HO2                                                           
+         O1D + HCl --> 0.24 H + 0.09 HCl + 0.24 ClO + 0.67 OH + 0.09 O + 0.67 Cl                     
+         O1D + HBr --> 0.15 H + 0.2 HBr + 0.15 BrO + 0.65 OH + 0.2 O + 0.65 Br                       
          Cl2 + O1D --> 0.25 Cl2 + 0.75 ClO + 0.25 O + 0.75 Cl                                        
         CCl4 + O1D --> 0.14 CCl4 + 0.86 ClO + 0.14 O + 2.58 Cl                                       
-       CH3Br + O1D --> 0.56 LOx + MO2 + 0.44 BrO + 0.56 Br                                           
+       CH3Br + O1D --> MO2 + 0.44 BrO + 0.56 Br                                                      
       CH2Br2 + O1D --> 0.05 CH2Br2 + 0.95 BrO + 0.05 O + 0.95 Br                                     
        CHBr3 + O1D --> 0.32 CHBr3 + 0.68 BrO + 0.32 O + 1.36 Br                                      
-      HCFC22 + O1D --> 0.17 LOx + 0.28 HCFC22 + 0.55 ClO + 0.28 O + 0.17 Cl                          
+      HCFC22 + O1D --> 0.28 HCFC22 + 0.55 ClO + 0.28 O + 0.17 Cl                                     
        CFC11 + O1D --> 0.12 CFC11 + 0.88 ClO + 0.12 O + 1.76 Cl                                      
        CFC12 + O1D --> 0.14 CFC12 + 0.86 ClO + 0.14 O + 0.86 Cl                                      
        H1211 + O1D --> 0.36 H1211 + 0.31 BrO + 0.33 ClO + 0.36 O + 0.31 Cl + 0.33 Br                 
@@ -240,16 +240,16 @@
       CFC114 + O1D --> 0.25 CFC114 + 0.75 ClO + 0.25 O + 0.75 Cl                                     
       CFC115 + O1D --> 0.7 CFC115 + 0.3 ClO + 0.7 O                                                  
        H2402 + O1D --> 0.25 H2402 + 0.75 BrO + 0.25 O + 0.75 Br                                      
-          Cl2 + OH --> POx + HOCl + Cl                                                               
-         MO2 + ClO --> LOx + ClOO + CH2O + HO2                                                       
-          ClO + OH --> LOx + HO2 + Cl                                                                
-          ClO + OH --> LOx + HCl + O2                                                                
-         OClO + OH --> LOx + HOCl + O2                                                               
-        Cl2O2 + OH --> LOx + ClOO + HOCl                                                             
+          Cl2 + OH --> HOCl + Cl                                                                     
+         MO2 + ClO --> ClOO + CH2O + HO2                                                             
+          ClO + OH --> HO2 + Cl                                                                      
+          ClO + OH --> HCl + O2                                                                      
+         OClO + OH --> HOCl + O2                                                                     
+        Cl2O2 + OH --> ClOO + HOCl                                                                   
           HCl + OH --> H2O + Cl                                                                      
          HOCl + OH --> H2O + ClO                                                                     
-        ClNO2 + OH --> POx + HOCl + NO2                                                              
-        ClNO3 + OH --> POx + HOCl + NO3                                                              
+        ClNO2 + OH --> HOCl + NO2                                                                    
+        ClNO3 + OH --> HOCl + NO3                                                                    
         CH3Cl + OH --> H2O + HO2 + Cl                                                                
        CH2Cl2 + OH --> HO2 + 2 Cl                                                                    
         CHCl3 + OH --> HO2 + 3 Cl                                                                    
@@ -260,38 +260,38 @@
       HCFC123 + OH --> H2O + 2 Cl                                                                    
           CH4 + Cl --> LCH4 + MO2 + HCl                                                              
          CH2O + Cl --> PCO + CO + HCl + HO2                                                          
-           O3 + Cl --> ClO + O2                                                                      
+           O3 + Cl --> LOx + ClO + O2                                                                
            Cl + H2 --> H + HCl                                                                       
          H2O2 + Cl --> HCl + HO2                                                                     
           HO2 + Cl --> HCl + O2                                                                      
-          HO2 + Cl --> POx + ClO + OH                                                                
-           ClO + O --> 2 LOx + Cl + O2                                                               
+          HO2 + Cl --> ClO + OH                                                                      
+           ClO + O --> Cl + O2                                                                       
          ClO + HO2 --> HOCl + O2                                                                     
           ClO + NO --> NO2 + Cl                                                                      
          NO2 + ClO --> ClNO3                                                                         
-             2 ClO --> 2 LOx + Cl2 + O2                                                              
-             2 ClO --> 2 LOx + ClOO + Cl                                                             
+             2 ClO --> Cl2 + O2                                                                      
+             2 ClO --> ClOO + Cl                                                                     
              2 ClO --> OClO + Cl                                                                     
            Cl + O2 --> ClOO                                                                          
               ClOO --> Cl + O2                                                                       
              2 ClO --> Cl2O2                                                                         
              Cl2O2 --> 2 ClO                                                                         
          ClOO + Cl --> Cl2 + O2                                                                      
-         ClOO + Cl --> 2 POx + 2 ClO                                                                 
+         ClOO + Cl --> 2 ClO                                                                         
          BrO + ClO --> OClO + Br                                                                     
-         BrO + ClO --> 2 LOx + ClOO + Br                                                             
-         BrO + ClO --> 2 LOx + BrCl + O2                                                             
+         BrO + ClO --> ClOO + Br                                                                     
+         BrO + ClO --> BrCl + O2                                                                     
          ClNO3 + O --> ClO + NO3                                                                     
         ClNO3 + Cl --> Cl2 + NO3                                                                     
         CH3Cl + Cl --> PCO + CO + 2 HCl + HO2                                                        
        CH2Cl2 + Cl --> PCO + CO + HCl + HO2 + 2 Cl                                                   
         CHCl3 + Cl --> PCO + CO + HCl + HO2 + 3 Cl                                                   
         HCOOH + Cl --> CO2 + HCl + H2O                                                               
-          MO2 + Cl --> POx + CH2O + ClO + HO2                                                        
+          MO2 + Cl --> CH2O + ClO + HO2                                                              
            MP + Cl --> MO2 + HCl                                                                     
          C2H6 + Cl --> ETO2 + HCl                                                                    
-         ETO2 + Cl --> POx + ALD2 + ClO + HO2                                                        
-       OTHRO2 + Cl --> POx + ALD2 + ClO + HO2                                                        
+         ETO2 + Cl --> ALD2 + ClO + HO2                                                              
+       OTHRO2 + Cl --> ALD2 + ClO + HO2                                                              
           MOH + Cl --> CH2O + HCl + HO2                                                              
           EOH + Cl --> ALD2 + HCl                                                                    
          ACTA + Cl --> CO2 + MO2 + HCl                                                               
@@ -312,18 +312,18 @@
              IONO2 --> IO + NO2                                                                      
          I + IONO2 --> I2 + NO3                                                                      
            I + BrO --> IO + Br                                                                       
-          IO + BrO --> 2 LOx + I + Br + O2                                                           
+          IO + BrO --> I + Br + O2                                                                   
           IO + BrO --> OIO + Br                                                                      
           OIO + IO --> I2O3                                                                          
              2 OIO --> I2O4                                                                          
               I2O4 --> 2 OIO                                                                         
           OIO + NO --> IO + NO2                                                                      
           IO + ClO --> OClO + I                                                                      
-          IO + ClO --> 2 LOx + I + Cl + O2                                                           
-          IO + ClO --> 2 LOx + ICl + O2                                                              
-            I + O3 --> IO + O2                                                                       
+          IO + ClO --> I + Cl + O2                                                                   
+          IO + ClO --> ICl + O2                                                                      
+            I + O3 --> LOx + IO + O2                                                                 
            I + HO2 --> HI + O2                                                                       
-           I2 + OH --> POx + HOI + I                                                                 
+           I2 + OH --> HOI + I                                                                       
            HI + OH --> I + H2O                                                                       
           HOI + OH --> IO + H2O                                                                      
           IO + HO2 --> HOI + O2                                                                      
@@ -336,63 +336,63 @@
         ETHLN + OH --> CO2 + CH2O + NO2                                                              
        PROPNN + OH --> MGLY + NO2                                                                    
         CH2OO + CO --> LCO + CH2O                                                                    
-        CH2OO + NO --> POx + CH2O + NO2                                                              
-       CH2OO + NO2 --> POx + CH2O + NO3                                                              
+        CH2OO + NO --> CH2O + NO2                                                                    
+       CH2OO + NO2 --> CH2O + NO3                                                                    
        CH2OO + H2O --> 0.06 PH2O2 + 0.73 HMHP + 0.21 HCOOH + 0.06 H2O2 + 0.06 CH2O                   
      CH2OO + 2 H2O --> 0.06 PH2O2 + 0.4 HMHP + 0.54 HCOOH + 0.06 H2O2 + 0.06 CH2O                    
         CH2OO + O3 --> LOx + CH2O                                                                    
        CH2OO + SO2 --> PSO4 + SO4 + CH2O                                                             
       CH3CHOO + CO --> LCO + ALD2                                                                    
-      CH3CHOO + NO --> POx + ALD2 + NO2                                                              
-     CH3CHOO + NO2 --> POx + ALD2 + NO3                                                              
+      CH3CHOO + NO --> ALD2 + NO2                                                                    
+     CH3CHOO + NO2 --> ALD2 + NO3                                                                    
      CH3CHOO + SO2 --> PSO4 + SO4 + ALD2                                                             
      CH3CHOO + H2O --> PH2O2 + H2O2 + ALD2                                                           
      CH3CHOO + H2O --> ACTA                                                                          
          MTPA + OH --> PIO2                                                                          
          MTPO + OH --> PIO2                                                                          
-         PIO2 + NO --> POx + 0.12 MONITS + 0.06 MONITU + 0.07 HCOOH + 0.11 ACET + 0.44 MEK + ... etc.
+         PIO2 + NO --> 0.12 MONITS + 0.06 MONITU + 0.07 HCOOH + 0.11 ACET + 0.44 MEK + 0.43 R... etc.
         PIO2 + HO2 --> PIP                                                                           
         PIO2 + MO2 --> 0.25 ROH + 0.25 MOH + 0.75 MEK + 0.75 RCHO + 0.75 CH2O + HO2                  
        PIO2 + MCO3 --> MEK + RCHO + 0.5 MO2 + 0.5 HO2 + RCOOH                                        
-        PIO2 + NO3 --> LOx + MEK + RCHO + NO2 + HO2                                                  
+        PIO2 + NO3 --> MEK + RCHO + NO2 + HO2                                                        
          MTPA + O3 --> LOx + 0.14 PCO + 0.02 PH2O2 + 0.02 H2O2 + 0.53 MEK + 0.62 KO2 + 0.65 R... etc.
          MTPO + O3 --> LOx + 0.14 PCO + 0.02 PH2O2 + 0.02 H2O2 + 0.53 MEK + 0.62 KO2 + 0.65 R... etc.
-        MTPA + NO3 --> LOx + 0.1 OLNN + 0.9 OLND                                                     
-        MTPO + NO3 --> LOx + 0.1 OLNN + 0.9 OLND                                                     
+        MTPA + NO3 --> 0.1 OLNN + 0.9 OLND                                                           
+        MTPO + NO3 --> 0.1 OLNN + 0.9 OLND                                                           
          LIMO + OH --> LIMO2                                                                         
          LIMO + O3 --> LOx + 0.14 PCO + 0.02 PH2O2 + 0.01 HCOOH + 0.02 H2O2 + 0.16 OTHRO2 + 0... etc.
-        LIMO + NO3 --> LOx + 0.5 OLNN + 0.5 OLND                                                     
-        LIMO2 + NO --> POx + 0.22 MONITU + 0.289 MEK + 0.058 HAC + 0.289 PRPE + 0.491 RCHO + ... etc.
+        LIMO + NO3 --> 0.5 OLNN + 0.5 OLND                                                           
+        LIMO2 + NO --> 0.22 MONITU + 0.289 MEK + 0.058 HAC + 0.289 PRPE + 0.491 RCHO + 0.231 ... etc.
        LIMO2 + HO2 --> PIP                                                                           
        LIMO2 + MO2 --> 0.25 ROH + 0.25 MOH + 0.308 MACR + 0.192 PRPE + 1.04 CH2O + HO2               
       LIMO2 + MCO3 --> 0.308 MACR + 0.192 PRPE + 0.385 CH2O + 0.5 MO2 + 0.5 HO2 + 0.5 RCOOH          
-       LIMO2 + NO3 --> LOx + 0.615 MACR + 0.385 PRPE + 0.385 CH2O + NO2 + HO2                        
+       LIMO2 + NO3 --> 0.615 MACR + 0.385 PRPE + 0.385 CH2O + NO2 + HO2                              
           PIP + OH --> 0.41 MEK + 0.44 R4O2 + 0.08 RCHO + 0.49 OH                                    
-         OLNN + NO --> POx + MONITS + NO2 + HO2                                                      
-         OLND + NO --> POx + 0.464 MEK + 1.24 RCHO + 0.287 CH2O + 2 NO2                              
+         OLNN + NO --> MONITS + NO2 + HO2                                                            
+         OLND + NO --> 0.464 MEK + 1.24 RCHO + 0.287 CH2O + 2 NO2                                    
         OLNN + HO2 --> 0.7 MONITS + 0.3 MONITU                                                       
         OLND + HO2 --> 0.7 MONITS + 0.3 MONITU                                                       
         OLNN + MO2 --> 0.7 MONITS + 0.3 MONITU + CH2O + 2 HO2                                        
         OLND + MO2 --> 0.25 ROH + 0.35 MONITS + 0.15 MONITU + 0.25 MOH + 0.348 MEK + 0.93 RCH... etc.
        OLNN + MCO3 --> 0.7 MONITS + 0.3 MONITU + MO2 + HO2                                           
        OLND + MCO3 --> 0.464 MEK + 1.24 RCHO + 0.287 CH2O + 0.5 MO2 + NO2 + 0.5 RCOOH                
-        OLNN + NO3 --> LOx + 0.7 MONITS + 0.3 MONITU + NO2 + HO2                                     
-        OLND + NO3 --> LOx + 0.464 MEK + 1.24 RCHO + 0.287 CH2O + 2 NO2                              
+        OLNN + NO3 --> 0.7 MONITS + 0.3 MONITU + NO2 + HO2                                           
+        OLND + NO3 --> 0.464 MEK + 1.24 RCHO + 0.287 CH2O + 2 NO2                                    
             2 OLNN --> 1.4 MONITS + 0.6 MONITU + HO2                                                 
        OLNN + OLND --> 1.05 MONITS + 0.45 MONITU + 0.149 MEK + 0.64 RCHO + 0.202 CH2O + 0.5 N... etc.
             2 OLND --> 0.7 MONITS + 0.3 MONITU + 0.285 MEK + 1.21 RCHO + 0.504 CH2O + NO2            
        MONITS + OH --> HONIT                                                                         
        MONITU + OH --> HONIT                                                                         
        MONITU + O3 --> LOx + HONIT                                                                   
-      MONITU + NO3 --> 2 LOx + HONIT                                                                 
-      MONITS + NO3 --> 2 LOx + HONIT                                                                 
-            IONITA --> INDIOL + POx + HNO3                                                           
-            MONITA --> INDIOL + POx + HNO3                                                           
-        HONIT + OH --> POx + HAC + NO3                                                               
-        MENO3 + OH --> POx + CH2O + NO2                                                              
-        ETNO3 + OH --> POx + ALD2 + NO2                                                              
-       IPRNO3 + OH --> POx + ACET + NO2                                                              
-       NPRNO3 + OH --> POx + RCHO + NO2                                                              
+      MONITU + NO3 --> HONIT                                                                         
+      MONITS + NO3 --> HONIT                                                                         
+            IONITA --> INDIOL + HNO3                                                                 
+            MONITA --> INDIOL + HNO3                                                                 
+        HONIT + OH --> HAC + NO3                                                                     
+        MENO3 + OH --> CH2O + NO2                                                                    
+        ETNO3 + OH --> ALD2 + NO2                                                                    
+       IPRNO3 + OH --> ACET + NO2                                                                    
+       NPRNO3 + OH --> RCHO + NO2                                                                    
          ISOP + O3 --> 0.407 CO2 + LOx + 0.407 PCO + 0.013 PH2O2 + 0.013 H2O2 + 0.58 CH2OO + ... etc.
          ISOP + OH --> LISOPOH + IHOO1                                                               
          ISOP + OH --> LISOPOH + IHOO4                                                               
@@ -416,14 +416,14 @@
        IHOO1 + MO2 --> 0.5 PCO + 0.5 HC5A + 0.5 MVKHP + 0.5 CO + CH2O + 0.5 OH + 1.5 HO2             
        IHOO4 + MO2 --> MACR + 2 CH2O + 2 HO2                                                         
        IHOO4 + MO2 --> 0.5 PCO + 0.5 HC5A + 0.5 MCRHP + 0.5 CO + CH2O + 0.5 OH + 1.5 HO2             
-        IHOO1 + NO --> POx + IHN2                                                                    
-        IHOO1 + NO --> POx + MVK + CH2O + NO2 + HO2                                                  
-        IHOO1 + NO --> POx + IHN4                                                                    
-        IHOO1 + NO --> POx + 0.55 PCO + 0.45 HC5A + 0.55 MVKHP + 0.55 CO + NO2 + 0.55 OH + 0.45 HO2  
-        IHOO4 + NO --> POx + IHN3                                                                    
-        IHOO4 + NO --> POx + MACR + CH2O + NO2 + HO2                                                 
-        IHOO4 + NO --> POx + IHN1                                                                    
-        IHOO4 + NO --> POx + 0.55 PCO + 0.45 HC5A + 0.55 MCRHP + 0.55 CO + NO2 + 0.55 OH + 0.45 HO2  
+        IHOO1 + NO --> IHN2                                                                          
+        IHOO1 + NO --> MVK + CH2O + NO2 + HO2                                                        
+        IHOO1 + NO --> IHN4                                                                          
+        IHOO1 + NO --> 0.55 PCO + 0.45 HC5A + 0.55 MVKHP + 0.55 CO + NO2 + 0.55 OH + 0.45 HO2        
+        IHOO4 + NO --> IHN3                                                                          
+        IHOO4 + NO --> MACR + CH2O + NO2 + HO2                                                       
+        IHOO4 + NO --> IHN1                                                                          
+        IHOO4 + NO --> 0.55 PCO + 0.45 HC5A + 0.55 MCRHP + 0.55 CO + NO2 + 0.55 OH + 0.45 HO2        
        HPALD1 + OH --> 0.45 PCO + 0.15 IDC + 0.315 HPALD1OO + 0.085 ICHE + 0.33 MVKHP + 0.085... etc.
        HPALD2 + OH --> 0.37 PCO + 0.15 IDC + 0.315 HPALD2OO + 0.165 ICHE + 0.17 MCRHP + 0.165... etc.
        HPALD3 + OH --> 0.42 PCO + 0.58 ICHE + 0.19 MVKHP + 0.23 MVK + 0.42 CO + OH                   
@@ -440,16 +440,16 @@
          RIPC + OH --> 0.005 LVOC + 0.036 PCO + 0.255 IEPOXD + 0.009 HPALD3 + 0.018 HPETHNL +... etc.
          RIPD + OH --> 0.005 LVOC + 0.054 PCO + 0.595 IEPOXD + 0.009 HPALD4 + 0.255 IHPOO2 + ... etc.
             IHPOO1 --> 0.824 IDHPE + 0.176 ICPDH + OH                                                
-       IHPOO1 + NO --> POx + 0.284 HPETHNL + 0.716 MCRHP + 0.284 HAC + 0.716 CH2O + NO2 + HO2        
-       IHPOO1 + NO --> POx + ITHN                                                                    
+       IHPOO1 + NO --> 0.284 HPETHNL + 0.716 MCRHP + 0.284 HAC + 0.716 CH2O + NO2 + HO2              
+       IHPOO1 + NO --> ITHN                                                                          
       IHPOO1 + HO2 --> 0.725 IDHDP + 0.135 HPETHNL + 0.14 MCRHP + 0.135 HAC + 0.14 CH2O + 0.2... etc.
             IHPOO2 --> 0.452 IDHPE + 0.548 ICPDH + OH                                                
-       IHPOO2 + NO --> POx + 0.294 ATOOH + 0.706 MVKHP + 0.294 GLYC + 0.706 CH2O + NO2 + HO2         
-       IHPOO2 + NO --> POx + ITHN                                                                    
+       IHPOO2 + NO --> 0.294 ATOOH + 0.706 MVKHP + 0.294 GLYC + 0.706 CH2O + NO2 + HO2               
+       IHPOO2 + NO --> ITHN                                                                          
       IHPOO2 + HO2 --> 0.725 IDHDP + 0.135 ATOOH + 0.14 MVKHP + 0.135 GLYC + 0.14 CH2O + 0.27... etc.
             IHPOO3 --> IDHPE                                                                         
-       IHPOO3 + NO --> POx + GLYC + HAC + NO2 + OH                                                   
-       IHPOO3 + NO --> POx + ITHN                                                                    
+       IHPOO3 + NO --> GLYC + HAC + NO2 + OH                                                         
+       IHPOO3 + NO --> ITHN                                                                          
       IHPOO3 + HO2 --> 0.35 IDHDP + 0.65 GLYC + 0.65 HAC + 1.3 OH                                    
        IEPOXD + OH --> 0.75 ICHE + 0.25 ICHOO + 0.75 HO2                                             
        IEPOXA + OH --> ICHE + HO2                                                                    
@@ -459,20 +459,20 @@
           IEPOXAOO --> IDCHP + HO2                                                                   
           IEPOXAOO --> PCO + MVKDH + CO + OH                                                         
     IEPOXAOO + HO2 --> 0.13 PCO + 0.13 MVKDH + 0.35 ICPDH + 0.52 MGLY + 0.52 GLYC + 0.13 CO +... etc.
-     IEPOXAOO + NO --> POx + 0.2 PCO + 0.2 MVKDH + 0.8 MGLY + 0.8 GLYC + 0.2 CO + NO2 + HO2          
-     IEPOXAOO + NO --> POx + ITCN                                                                    
+     IEPOXAOO + NO --> 0.2 PCO + 0.2 MVKDH + 0.8 MGLY + 0.8 GLYC + 0.2 CO + NO2 + HO2                
+     IEPOXAOO + NO --> ITCN                                                                          
           IEPOXBOO --> IDCHP + HO2                                                                   
           IEPOXBOO --> PCO + MCRDH + CO + OH                                                         
-     IEPOXBOO + NO --> POx + 0.2 PCO + 0.2 MCRDH + 0.8 GLYX + 0.8 HAC + 0.2 CO + NO2 + HO2           
-     IEPOXBOO + NO --> POx + ITCN                                                                    
+     IEPOXBOO + NO --> 0.2 PCO + 0.2 MCRDH + 0.8 GLYX + 0.8 HAC + 0.2 CO + NO2 + HO2                 
+     IEPOXBOO + NO --> ITCN                                                                          
     IEPOXBOO + HO2 --> 0.13 PCO + 0.13 MCRDH + 0.35 ICPDH + 0.52 GLYX + 0.52 HAC + 0.13 CO + ... etc.
        ICHOO + HO2 --> 0.52 PCO + 0.13 MVKHC + 0.35 ICPDH + 0.52 HAC + 0.52 CO + 0.65 CH2O + ... etc.
-        ICHOO + NO --> POx + ITCN                                                                    
-        ICHOO + NO --> POx + 0.8 PCO + 0.2 MVKHC + 0.8 HAC + 0.8 CO + CH2O + NO2 + HO2               
+        ICHOO + NO --> ITCN                                                                          
+        ICHOO + NO --> 0.8 PCO + 0.2 MVKHC + 0.8 HAC + 0.8 CO + CH2O + NO2 + HO2                     
              ICHOO --> 2 PCO + HAC + 2 CO + OH + HO2                                                 
-     HPALD1OO + NO --> CO2 + POx + MVK + NO2 + OH                                                    
+     HPALD1OO + NO --> CO2 + MVK + NO2 + OH                                                          
     HPALD1OO + HO2 --> CO2 + MVK + 2 OH                                                              
-     HPALD2OO + NO --> CO2 + POx + MACR + NO2 + OH                                                   
+     HPALD2OO + NO --> CO2 + MACR + NO2 + OH                                                         
     HPALD2OO + HO2 --> CO2 + MACR + 2 OH                                                             
          IHN2 + OH --> ISOPNOO1                                                                      
          IHN2 + OH --> 0.67 IEPOXA + 0.33 IEPOXB + NO2                                               
@@ -486,39 +486,39 @@
          IHN4 + OH --> 0.6 PCO + 0.4 ICN + 0.6 MVKN + 0.6 CO + 0.6 OH + 0.4 HO2                      
           ISOPNOO1 --> ITCN + HO2                                                                    
     ISOPNOO1 + HO2 --> 0.059 MCRHN + 0.459 GLYC + 0.482 ITHN + 0.459 HAC + 0.059 CH2O + 0.459... etc.
-     ISOPNOO1 + NO --> POx + 0.272 MCRHN + 0.728 GLYC + 0.728 HAC + 0.272 CH2O + 1.728 NO2 + ... etc.
-     ISOPNOO1 + NO --> POx + IDN                                                                     
+     ISOPNOO1 + NO --> 0.272 MCRHN + 0.728 GLYC + 0.728 HAC + 0.272 CH2O + 1.728 NO2 + 0.272 HO2     
+     ISOPNOO1 + NO --> IDN                                                                           
           ISOPNOO2 --> ITCN + HO2                                                                    
     ISOPNOO2 + HO2 --> 0.599 MVKN + 0.401 ITHN + 0.599 CH2O + 0.599 OH + 0.599 HO2                   
-     ISOPNOO2 + NO --> POx + MVKN + CH2O + NO2 + HO2                                                 
-     ISOPNOO2 + NO --> POx + IDN                                                                     
+     ISOPNOO2 + NO --> MVKN + CH2O + NO2 + HO2                                                       
+     ISOPNOO2 + NO --> IDN                                                                           
           IDHNDOO1 --> ITCN + HO2                                                                    
           IDHNDOO2 --> ITCN + HO2                                                                    
     IDHNDOO1 + HO2 --> 0.031 MCRHNB + 0.551 PROPNN + 0.551 GLYC + 0.418 ITHN + 0.031 CH2O + 0... etc.
-     IDHNDOO1 + NO --> POx + 0.065 MCRHNB + 0.935 PROPNN + 0.935 GLYC + 0.065 CH2O + NO2 + HO2       
-     IDHNDOO1 + NO --> POx + IDN                                                                     
+     IDHNDOO1 + NO --> 0.065 MCRHNB + 0.935 PROPNN + 0.935 GLYC + 0.065 CH2O + NO2 + HO2             
+     IDHNDOO1 + NO --> IDN                                                                           
     IDHNDOO2 + HO2 --> 0.441 ETHLN + 0.065 MVKN + 0.494 ITHN + 0.441 HAC + 0.065 CH2O + 0.506... etc.
-     IDHNDOO2 + NO --> POx + 0.858 ETHLN + 0.142 MVKN + 0.858 HAC + 0.142 CH2O + NO2 + HO2           
-     IDHNDOO2 + NO --> POx + IDN                                                                     
+     IDHNDOO2 + NO --> 0.858 ETHLN + 0.142 MVKN + 0.858 HAC + 0.142 CH2O + NO2 + HO2                 
+     IDHNDOO2 + NO --> IDN                                                                           
      IDHNBOO + HO2 --> 0.094 MCRHNB + 0.242 PROPNN + 0.033 ETHLN + 0.242 GLYC + 0.01 MVKN + 0... etc.
-      IDHNBOO + NO --> POx + 0.355 MCRHNB + 0.546 PROPNN + 0.071 ETHLN + 0.546 GLYC + 0.028 M... etc.
-      IDHNBOO + NO --> POx + IDN                                                                     
-        ISOP + NO3 --> LISOPNO3 + LOx + 0.465 INO2B + 0.535 INO2D                                    
+      IDHNBOO + NO --> 0.355 MCRHNB + 0.546 PROPNN + 0.071 ETHLN + 0.546 GLYC + 0.028 MVKN + ... etc.
+      IDHNBOO + NO --> IDN                                                                           
+        ISOP + NO3 --> LISOPNO3 + 0.465 INO2B + 0.535 INO2D                                          
        INO2B + HO2 --> 0.473 INPB + 0.479 MVK + 0.048 MACR + 0.527 CH2O + 0.527 NO2 + 0.527 OH       
        INO2D + HO2 --> INPD                                                                          
            2 INO2B --> 0.07 INPB + 0.07 ICN + 1.737 MVK + 0.123 MACR + 1.86 CH2O + 1.86 NO2          
      INO2B + INO2D --> 0.474 INA + 0.399 INPB + 0.032 IHN1 + 0.532 ICN + 0.544 MVK + 0.019 MA... etc.
-           2 INO2D --> 0.001 LOx + 0.34 INA + 0.127 IHN4 + 0.671 IHN1 + 0.861 ICN + 0.064 HO2        
+           2 INO2D --> 0.34 INA + 0.127 IHN4 + 0.671 IHN1 + 0.861 ICN + 0.064 HO2                    
        INO2D + MO2 --> 0.244 INA + 0.057 IHN4 + 0.355 MOH + 0.298 IHN1 + 0.401 ICN + 0.645 CH... etc.
        INO2B + MO2 --> 0.355 INPB + 0.034 MOH + 0.034 ICN + 0.583 MVK + 0.028 MACR + 1.577 CH... etc.
       INO2B + MCO3 --> 0.903 MVK + 0.097 MACR + CH2O + MO2 + NO2                                     
       INO2D + MCO3 --> 0.841 INA + 0.159 ICN + MO2 + 0.159 HO2                                       
-       INO2B + NO3 --> LOx + 0.903 MVK + 0.097 MACR + CH2O + 2 NO2                                   
-       INO2D + NO3 --> LOx + 0.841 INA + 0.159 ICN + NO2 + 0.159 HO2                                 
-        INO2B + NO --> POx + 0.904 MVK + 0.096 MACR + CH2O + 2 NO2                                   
-        INO2B + NO --> POx + IDN                                                                     
-        INO2D + NO --> POx + 0.841 INA + 0.159 ICN + NO2 + 0.159 HO2                                 
-        INO2D + NO --> POx + IDN                                                                     
+       INO2B + NO3 --> 0.903 MVK + 0.097 MACR + CH2O + 2 NO2                                         
+       INO2D + NO3 --> 0.841 INA + 0.159 ICN + NO2 + 0.159 HO2                                       
+        INO2B + NO --> 0.904 MVK + 0.096 MACR + CH2O + 2 NO2                                         
+        INO2B + NO --> IDN                                                                           
+        INO2D + NO --> 0.841 INA + 0.159 ICN + NO2 + 0.159 HO2                                       
+        INO2D + NO --> IDN                                                                           
           INA + O2 --> ICN + HO2                                                                     
                INA --> IDHNBOO                                                                       
          INPB + OH --> 0.67 IHPNBOO + 0.33 IDHNBOO                                                   
@@ -533,32 +533,32 @@
            IHPNBOO --> 0.5 ITCN + 0.5 ITHN + OH                                                      
      IHPNBOO + HO2 --> 0.249 HPETHNL + 0.06 MCRHNB + 0.009 ATOOH + 0.589 PROPNN + 0.051 ETHLN... etc.
      IHPNDOO + HO2 --> 0.471 HPETHNL + 0.073 MCRHNB + 0.054 ATOOH + 0.471 PROPNN + 0.054 ETHL... etc.
-      IHPNBOO + NO --> POx + 0.303 HPETHNL + 0.17 MCRHNB + 0.013 ATOOH + 0.687 PROPNN + 0.064... etc.
-      IHPNBOO + NO --> POx + IDN                                                                     
-      IHPNDOO + NO --> POx + 0.59 HPETHNL + 0.291 MCRHNB + 0.07 ATOOH + 0.59 PROPNN + 0.07 ET... etc.
-      IHPNDOO + NO --> POx + IDN                                                                     
+      IHPNBOO + NO --> 0.303 HPETHNL + 0.17 MCRHNB + 0.013 ATOOH + 0.687 PROPNN + 0.064 ETHLN... etc.
+      IHPNBOO + NO --> IDN                                                                           
+      IHPNDOO + NO --> 0.59 HPETHNL + 0.291 MCRHNB + 0.07 ATOOH + 0.59 PROPNN + 0.07 ETHLN + ... etc.
+      IHPNDOO + NO --> IDN                                                                           
           ICN + OH --> ICHE + NO2                                                                    
           ICN + OH --> 0.539 PCO + 0.461 ICNOO + 0.378 MCRHNB + 0.161 MVKN + 0.539 CO + 0.244... etc.
-        ICNOO + NO --> 0.33 CO2 + POx + 0.33 PCO + 0.67 ICNOO + 0.231 PROPNN + 0.099 ETHLN + ... etc.
+        ICNOO + NO --> 0.33 CO2 + 0.33 PCO + 0.67 ICNOO + 0.231 PROPNN + 0.099 ETHLN + 0.33 C... etc.
        ICNOO + HO2 --> 0.33 CO2 + 0.33 PCO + 0.67 ICNOO + 0.231 PROPNN + 0.099 ETHLN + 0.33 C... etc.
           IDN + OH --> 0.435 IDNOO + 0.565 ITHN + 0.565 NO2                                          
-        IDNOO + NO --> POx + PROPNN + 0.89 ETHLN + 0.11 GLYC + 1.11 NO2 + 0.89 HO2                   
+        IDNOO + NO --> PROPNN + 0.89 ETHLN + 0.11 GLYC + 1.11 NO2 + 0.89 HO2                         
        IDNOO + HO2 --> 0.82 PROPNN + 0.73 ETHLN + 0.09 GLYC + 0.18 IDN + 0.09 NO2 + 0.82 OH +... etc.
           MVK + OH --> MVKOHOO                                                                       
           MVK + O3 --> LOx + 0.18 PCO + 0.045 PH2O2 + 0.075 PYAC + 0.045 H2O2 + 0.545 MGLY + ... etc.
          MACR + OH --> 0.036 PCO + 0.036 ATOOH + 0.964 MCROHOO + 0.036 CO + 0.036 HO2                
          MACR + OH --> MACR1OO                                                                       
          MACR + O3 --> LOx + 0.12 PCO + 0.88 MGLY + 0.88 CH2OO + 0.12 MCO3 + 0.12 CO + 0.12 C... etc.
-        MACR + NO3 --> LOx + 0.68 PCO + 0.68 PROPNN + 0.32 MACR1OO + 0.68 CO + 0.32 HNO3 + 0.68 OH   
-         MVKN + OH --> 0.69 POx + 0.241 PYAC + 0.29 MVKHCB + 0.449 HCOOH + 0.449 MGLY + 0.04 ... etc.
+        MACR + NO3 --> 0.68 PCO + 0.68 PROPNN + 0.32 MACR1OO + 0.68 CO + 0.32 HNO3 + 0.68 OH         
+         MVKN + OH --> 0.241 PYAC + 0.29 MVKHCB + 0.449 HCOOH + 0.449 MGLY + 0.04 MCO3 + 0.24... etc.
         MVKHP + OH --> 0.53 MVKHC + 0.47 MVKHCB + OH                                                 
         MCRHP + OH --> 0.23 CO2 + 0.77 PCO + 0.23 ATOOH + 0.77 HAC + 0.77 CO + OH                    
         MCRHN + OH --> MACRNO2                                                                       
        MCRHNB + OH --> 0.75 CO2 + 0.25 PCO + PROPNN + 0.25 CO + OH                                   
-       C4HVP1 + NO --> POx + MVKOHOO + NO2                                                           
+       C4HVP1 + NO --> MVKOHOO + NO2                                                                 
       C4HVP1 + HO2 --> MVKOHOO + OH                                                                  
       C4HVP1 + NO2 --> MVKN                                                                          
-       C4HVP2 + NO --> POx + MCROHOO + NO2                                                           
+       C4HVP2 + NO --> MCROHOO + NO2                                                                 
       C4HVP2 + HO2 --> MCROHOO + OH                                                                  
       C4HVP2 + NO2 --> MCRHN                                                                         
       MCRENOL + OH --> 0.097 CO2 + 0.75 PCO + 0.653 PYAC + 0.063 MVKHCB + 0.187 HCOOH + 0.187... etc.
@@ -568,31 +568,31 @@
         MVKHC + OH --> 2 PCO + MCO3 + 2 CO + HO2                                                     
         MCRDH + OH --> 0.84 PCO + 0.16 MVKHCB + 0.84 HAC + 0.84 CO + HO2                             
      MVKOHOO + HO2 --> 0.255 MVKHC + 0.335 MVKHP + 0.05 MGLY + 0.36 GLYC + 0.36 MCO3 + 0.05 C... etc.
-      MVKOHOO + NO --> POx + 0.242 MGLY + 0.758 GLYC + 0.758 MCO3 + 0.242 CH2O + NO2 + 0.242 HO2     
-      MVKOHOO + NO --> 0.438 POx + 0.438 MVKN                                                        
+      MVKOHOO + NO --> 0.242 MGLY + 0.758 GLYC + 0.758 MCO3 + 0.242 CH2O + NO2 + 0.242 HO2           
+      MVKOHOO + NO --> 0.438 MVKN                                                                    
      MCROHOO + HO2 --> 0.507 PCO + 0.41 MCRHP + 0.083 MGLY + 0.507 HAC + 0.507 CO + 0.083 CH2... etc.
      MACR1OO + HO2 --> 0.5 CO2 + 0.13 POx + 0.325 PCO + 0.5 MACR1OOH + 0.175 MCO3 + 0.325 CO ... etc.
      MACR1OOH + OH --> 0.415 CO2 + 0.488 PCO + 0.098 HMML + 0.165 MACR1OO + 0.488 HAC + 0.087... etc.
            MCROHOO --> PCO + HAC + CO + OH                                                           
-      MCROHOO + NO --> POx + 0.86 PCO + 0.14 MGLY + 0.86 HAC + 0.86 CO + 0.14 CH2O + NO2 + 0.86 HO2  
-      MCROHOO + NO --> POx + MCRHN                                                                   
-      MACR1OO + NO --> CO2 + POx + 0.65 PCO + 0.35 MCO3 + 0.65 CO + CH2O + 0.65 MO2 + NO2            
+      MCROHOO + NO --> 0.86 PCO + 0.14 MGLY + 0.86 HAC + 0.86 CO + 0.14 CH2O + NO2 + 0.86 HO2        
+      MCROHOO + NO --> MCRHN                                                                         
+      MACR1OO + NO --> CO2 + 0.65 PCO + 0.35 MCO3 + 0.65 CO + CH2O + 0.65 MO2 + NO2                  
      MACR1OO + NO2 --> MPAN                                                                          
      MACRNO2 + HO2 --> 0.5 CO2 + 0.13 POx + 0.13 MCRHNB + 0.37 MCRHN + 0.5 HAC + 0.13 O3 + 0.... etc.
-      MACRNO2 + NO --> CO2 + POx + HAC + 2 NO2                                                       
+      MACRNO2 + NO --> CO2 + HAC + 2 NO2                                                             
      MACRNO2 + NO2 --> MPAN + NO2                                                                    
-     MACRNO2 + NO3 --> CO2 + LOx + HAC + 2 NO2                                                       
+     MACRNO2 + NO3 --> CO2 + HAC + 2 NO2                                                             
      MACRNO2 + MO2 --> 0.7 CO2 + 0.3 MCRHNB + 0.7 HAC + CH2O + 0.7 NO2 + 0.7 HO2                     
               MPAN --> MACR1OO + NO2                                                                 
-         MPAN + OH --> POx + 0.25 PCO + 0.75 HMML + 0.25 HAC + 0.25 CO + NO3                         
+         MPAN + OH --> 0.25 PCO + 0.75 HMML + 0.25 HAC + 0.25 CO + NO3                               
          HMML + OH --> 0.3 HCOOH + 0.7 MGLY + 0.3 MCO3 + 0.7 OH                                      
         ICPDH + OH --> PCO + 0.35 MVKDH + 0.15 MCRDH + 0.5 MCRHP + CO + 0.5 OH + 0.5 HO2             
         IDCHP + OH --> 0.888 PCO + 0.444 MVKPC + 0.318 MVKHC + 0.126 MVKHCB + 0.032 IEPOXBOO ... etc.
         IDHDP + OH --> 0.667 IDHPE + 0.333 ICPDH + OH                                                
         IDHPE + OH --> CO2 + 0.429 MVKHP + 0.571 MCRHP + OH                                          
          ITCN + OH --> PCO + 0.75 MVKHP + 0.25 MCRHP + CO + NO2                                      
-         ITHN + OH --> 0.02 POx + 0.041 ICNOO + 0.022 MCRENOL + 0.92 ITCN + 0.037 IDHNBOO + 0... etc.
-       ETHLN + NO3 --> LOx + MCO3 + HNO3 + NO2                                                       
+         ITHN + OH --> 0.041 ICNOO + 0.022 MCRENOL + 0.92 ITCN + 0.037 IDHNBOO + 0.022 CH2O +... etc.
+       ETHLN + NO3 --> MCO3 + HNO3 + NO2                                                             
          PYAC + OH --> CO2 + MCO3                                                                    
          HMHP + OH --> 0.5 HCOOH + 0.5 CH2O + 0.5 OH + 0.5 HO2                                       
         MCO3 + HO2 --> 0.5 CO2 + 0.13 POx + 0.37 MAP + 0.13 ACTA + 0.5 MO2 + 0.13 O3 + 0.5 OH        
@@ -605,45 +605,45 @@
          C2H4 + OH --> ETOO                                                                          
          C2H2 + OH --> 0.364 PCO + 0.364 HCOOH + 0.636 GLYX + 0.364 CO + 0.636 OH + 0.364 HO2        
         ETOO + HO2 --> ETHP                                                                          
-         ETOO + NO --> 0.995 POx + 0.005 ETHN + 0.995 ETO + 0.995 NO2                                
-        ETOO + NO3 --> LOx + ETO + NO2                                                               
+         ETOO + NO --> 0.005 ETHN + 0.995 ETO + 0.995 NO2                                            
+        ETOO + NO3 --> ETO + NO2                                                                     
         ETOO + MO2 --> 0.6 ETO + 0.2 ETHP + 0.2 MOH + 0.2 GLYC + 0.8 CH2O + 0.6 HO2                  
                ETO --> 2 CH2O + HO2                                                                  
           ETO + O2 --> GLYC + HO2                                                                    
-         ETHN + OH --> POx + GLYC + NO2                                                              
+         ETHN + OH --> GLYC + NO2                                                                    
          ETHP + OH --> ETOO                                                                          
          ETHP + OH --> GLYC + OH                                                                     
          BENZ + OH --> BRO2 + 0.2 PCO + 0.54 PHEN + 0.56 AROMP4 + 0.46 AROMRO2 + 0.18 GLYX + ... etc.
          TOLU + OH --> TRO2 + 0.27 PCO + 0.06 BALD + 0.19 CSL + 0.3 AROMP5 + 0.68 AROMP4 + 0.... etc.
          XYLE + OH --> XRO2 + 0.3 PCO + 0.06 BALD + 0.15 CSL + 0.56 AROMP5 + 0.28 AROMP4 + 0.... etc.
      AROMRO2 + HO2 --> OH + HO2                                                                      
-      AROMRO2 + NO --> POx + NO2 + HO2                                                               
-     AROMRO2 + NO3 --> LOx + NO2 + HO2                                                               
+      AROMRO2 + NO --> NO2 + HO2                                                                     
+     AROMRO2 + NO3 --> NO2 + HO2                                                                     
      AROMRO2 + MO2 --> CH2O + 2 HO2                                                                  
     AROMRO2 + MCO3 --> MO2 + HO2                                                                     
          PHEN + OH --> 0.8 MCT + 0.18 AROMP4 + 0.06 BENZO + 0.14 AROMRO2 + 0.06 GLYX + 0.8 HO2       
-        PHEN + NO3 --> 1.258 LOx + 0.742 BENZO + 0.258 NPHEN + 0.742 HNO3                            
+        PHEN + NO3 --> 0.742 BENZO + 0.258 NPHEN + 0.742 HNO3                                        
           CSL + OH --> 0.727 MCT + 0.44 AROMP5 + 0.073 BENZO + 0.2 AROMRO2 + 0.727 HO2               
-         CSL + NO3 --> 1.5 LOx + 0.44 AROMP5 + 0.3 BENZO + 0.2 AROMRO2 + 0.5 NPHEN + 0.5 HNO3        
+         CSL + NO3 --> 0.44 AROMP5 + 0.3 BENZO + 0.2 AROMRO2 + 0.5 NPHEN + 0.5 HNO3                  
           MCT + OH --> 1.05 AROMP4 + 0.3 BENZO + 0.7 AROMRO2                                         
           MCT + O3 --> LOx + AROMP4 + GLYC + OH + HO2                                                
-         MCT + NO3 --> 1.5 LOx + 0.3 AROMP4 + 0.3 BENZO + 0.2 AROMRO2 + 0.5 NPHEN + 0.5 HNO3         
+         MCT + NO3 --> 0.3 AROMP4 + 0.3 BENZO + 0.2 AROMRO2 + 0.5 NPHEN + 0.5 HNO3                   
          BALD + OH --> BZCO3                                                                         
-        BALD + NO3 --> LOx + BZCO3 + HNO3                                                            
+        BALD + NO3 --> BZCO3 + HNO3                                                                  
        BZCO3 + HO2 --> 0.35 CO2 + 0.15 POx + 0.65 BZCO3H + 0.15 BENZP + 0.2 BENZO2 + 0.15 O3 + 0.2 OH
-        BZCO3 + NO --> CO2 + POx + BENZO2 + NO2                                                      
-       BZCO3 + NO2 --> LOx + BZPAN                                                                   
+        BZCO3 + NO --> CO2 + BENZO2 + NO2                                                            
+       BZCO3 + NO2 --> BZPAN                                                                         
        BZCO3H + OH --> BZCO3                                                                         
-             BZPAN --> POx + BZCO3 + NO2                                                             
-        BZPAN + OH --> CO2 + POx + BENZP + NO2                                                       
-      BENZO2 + NO2 --> POx + BENZO + NO3                                                             
-       BENZO2 + NO --> POx + BENZO + NO2                                                             
-      BENZO2 + NO3 --> LOx + BENZO + NO2                                                             
+             BZPAN --> BZCO3 + NO2                                                                   
+        BZPAN + OH --> CO2 + BENZP + NO2                                                             
+      BENZO2 + NO2 --> BENZO + NO3                                                                   
+       BENZO2 + NO --> BENZO + NO2                                                                   
+      BENZO2 + NO3 --> BENZO + NO2                                                                   
       BENZO2 + HO2 --> BENZP                                                                         
         BENZP + OH --> BENZO2                                                                        
         BENZO + O3 --> LOx + BENZO2                                                                  
-       BENZO + NO2 --> LOx + NPHEN                                                                   
-        NPHEN + OH --> POx + AROMP4 + 0.5 R4N1 + 0.5 NO2                                             
+       BENZO + NO2 --> NPHEN                                                                         
+        NPHEN + OH --> AROMP4 + 0.5 R4N1 + 0.5 NO2                                                   
        NPHEN + NO3 --> AROMP4 + 0.5 R4N1 + 0.5 HNO3 + NO2                                            
       BENZO2 + MO2 --> BENZO + CH2O + HO2                                                            
        BZCO3 + MO2 --> CO2 + BENZO2 + CH2O + HO2                                                     
@@ -660,103 +660,103 @@
         XRO2 + HO2 --> LXRO2H + HO2                                                                  
          XRO2 + NO --> LXRO2N + NO                                                                   
                HO2 --> H2O                                                                           
-               NO2 --> 0.5 LOx + 0.5 HNO2 + 0.5 HNO3                                                 
-               NO3 --> LOx + HNO3                                                                    
-               NO3 --> 2 LOx + NIT                                                                   
-               NO3 --> 2 LOx + NITs                                                                  
-        N2O5 + H2O --> LOx + 2 HNO3                                                                  
-        N2O5 + HCl --> LOx + ClNO2 + HNO3                                                            
-              N2O5 --> LOx + 2 HNO3                                                                  
-     N2O5 + SALACL --> LOx + ClNO2 + HNO3                                                            
-     N2O5 + SALCCL --> LOx + ClNO2 + HNO3                                                            
+               NO2 --> 0.5 HNO2 + 0.5 HNO3                                                           
+               NO3 --> HNO3                                                                          
+               NO3 --> NIT                                                                           
+               NO3 --> NITs                                                                          
+        N2O5 + H2O --> 2 HNO3                                                                        
+        N2O5 + HCl --> ClNO2 + HNO3                                                                  
+              N2O5 --> 2 HNO3                                                                        
+     N2O5 + SALACL --> ClNO2 + HNO3                                                                  
+     N2O5 + SALCCL --> ClNO2 + HNO3                                                                  
        SALACL + OH --> 0.5 Cl2                                                                       
        OH + SALCCL --> 0.5 Cl2                                                                       
        BrNO3 + H2O --> HOBr + HNO3                                                                   
-       BrNO3 + HCl --> LOx + BrCl + HNO3                                                             
+       BrNO3 + HCl --> BrCl + HNO3                                                                   
        ClNO3 + H2O --> HNO3 + HOCl                                                                   
-       ClNO3 + HCl --> LOx + Cl2 + HNO3                                                              
-       ClNO3 + HBr --> LOx + BrCl + HNO3                                                             
-    ClNO3 + BrSALA --> LOx + BrCl + HNO3                                                             
-    ClNO3 + BrSALC --> LOx + BrCl + HNO3                                                             
-    ClNO3 + SALACL --> LOx + Cl2 + HNO3                                                              
-    ClNO3 + SALCCL --> LOx + Cl2 + HNO3                                                              
-    ClNO2 + SALACL --> LOx + HNO2 + Cl2                                                              
-    ClNO2 + SALCCL --> LOx + HNO2 + Cl2                                                              
-       ClNO2 + HCl --> LOx + HNO2 + Cl2                                                              
-    ClNO2 + BrSALA --> LOx + BrCl + HNO2                                                             
-    ClNO2 + BrSALC --> LOx + BrCl + HNO2                                                             
-       ClNO2 + HBr --> LOx + BrCl + HNO2                                                             
-        HOCl + HCl --> LOx + Cl2 + H2O                                                               
-        HOCl + HBr --> LOx + BrCl + H2O                                                              
-     HOCl + SALACL --> LOx + Cl2 + H2O                                                               
-     HOCl + SALCCL --> LOx + Cl2 + H2O                                                               
-        HOCl + SO2 --> SO4s + LOx + HCl                                                              
-        HOBr + HBr --> LOx + Br2 + H2O                                                               
-        HOBr + HCl --> LOx + BrCl + H2O                                                              
-     HOBr + SALACL --> LOx + BrCl + H2O                                                              
-     HOBr + SALCCL --> LOx + BrCl + H2O                                                              
-     HOBr + BrSALA --> LOx + Br2                                                                     
-     HOBr + BrSALC --> LOx + Br2                                                                     
-        HOBr + SO2 --> SO4s + LOx + HBr                                                              
-          O3 + HBr --> HOBr                                                                          
-       O3 + BrSALA --> HOBr                                                                          
-       O3 + BrSALC --> HOBr                                                                          
+       ClNO3 + HCl --> Cl2 + HNO3                                                                    
+       ClNO3 + HBr --> BrCl + HNO3                                                                   
+    ClNO3 + BrSALA --> BrCl + HNO3                                                                   
+    ClNO3 + BrSALC --> BrCl + HNO3                                                                   
+    ClNO3 + SALACL --> Cl2 + HNO3                                                                    
+    ClNO3 + SALCCL --> Cl2 + HNO3                                                                    
+    ClNO2 + SALACL --> HNO2 + Cl2                                                                    
+    ClNO2 + SALCCL --> HNO2 + Cl2                                                                    
+       ClNO2 + HCl --> HNO2 + Cl2                                                                    
+    ClNO2 + BrSALA --> BrCl + HNO2                                                                   
+    ClNO2 + BrSALC --> BrCl + HNO2                                                                   
+       ClNO2 + HBr --> BrCl + HNO2                                                                   
+        HOCl + HCl --> Cl2 + H2O                                                                     
+        HOCl + HBr --> BrCl + H2O                                                                    
+     HOCl + SALACL --> Cl2 + H2O                                                                     
+     HOCl + SALCCL --> Cl2 + H2O                                                                     
+        HOCl + SO2 --> SO4s + HCl                                                                    
+        HOBr + HBr --> Br2 + H2O                                                                     
+        HOBr + HCl --> BrCl + H2O                                                                    
+     HOBr + SALACL --> BrCl + H2O                                                                    
+     HOBr + SALCCL --> BrCl + H2O                                                                    
+     HOBr + BrSALA --> Br2                                                                           
+     HOBr + BrSALC --> Br2                                                                           
+        HOBr + SO2 --> SO4s + HBr                                                                    
+          O3 + HBr --> LOx + HOBr                                                                    
+       O3 + BrSALA --> LOx + HOBr                                                                    
+       O3 + BrSALC --> LOx + HOBr                                                                    
                HBr --> BrSALA                                                                        
                HBr --> BrSALC                                                                        
                 HI --> AERI                                                                          
                 HI --> ISALA                                                                         
                 HI --> ISALC                                                                         
-              I2O2 --> 2 AERI + 2 LOx                                                                
-              I2O2 --> 2 ISALA + 2 LOx                                                               
-              I2O2 --> 2 ISALC + 2 LOx                                                               
-              I2O3 --> 2 AERI + 3 LOx                                                                
-              I2O3 --> 2 ISALA + 3 LOx                                                               
-              I2O3 --> 2 ISALC + 3 LOx                                                               
-              I2O4 --> 2 AERI + 4 LOx                                                                
-              I2O4 --> 2 ISALA + 4 LOx                                                               
-              I2O4 --> 2 ISALC + 4 LOx                                                               
+              I2O2 --> 2 AERI                                                                        
+              I2O2 --> 2 ISALA                                                                       
+              I2O2 --> 2 ISALC                                                                       
+              I2O3 --> 2 AERI                                                                        
+              I2O3 --> 2 ISALA                                                                       
+              I2O3 --> 2 ISALC                                                                       
+              I2O4 --> 2 AERI                                                                        
+              I2O4 --> 2 ISALA                                                                       
+              I2O4 --> 2 ISALC                                                                       
        IONO2 + H2O --> HNO3 + HOI                                                                    
-     IONO + BrSALA --> LOx + IBr + HNO2                                                              
-     IONO + BrSALC --> LOx + IBr + HNO2                                                              
-     IONO + SALACL --> LOx + ICl + HNO2                                                              
-     IONO + SALCCL --> LOx + ICl + HNO2                                                              
-    IONO2 + BrSALA --> LOx + IBr + HNO3                                                              
-    IONO2 + BrSALC --> LOx + IBr + HNO3                                                              
-    IONO2 + SALACL --> LOx + ICl + HNO3                                                              
-    IONO2 + SALCCL --> LOx + ICl + HNO3                                                              
-      HOI + BrSALA --> LOx + IBr                                                                     
-      HOI + BrSALC --> LOx + IBr                                                                     
-      HOI + SALACL --> LOx + ICl                                                                     
-      HOI + SALCCL --> LOx + ICl                                                                     
+     IONO + BrSALA --> IBr + HNO2                                                                    
+     IONO + BrSALC --> IBr + HNO2                                                                    
+     IONO + SALACL --> ICl + HNO2                                                                    
+     IONO + SALCCL --> ICl + HNO2                                                                    
+    IONO2 + BrSALA --> IBr + HNO3                                                                    
+    IONO2 + BrSALC --> IBr + HNO3                                                                    
+    IONO2 + SALACL --> ICl + HNO3                                                                    
+    IONO2 + SALCCL --> ICl + HNO3                                                                    
+      HOI + BrSALA --> IBr                                                                           
+      HOI + BrSALC --> IBr                                                                           
+      HOI + SALACL --> ICl                                                                           
+      HOI + SALCCL --> ICl                                                                           
               GLYX --> SOAGX                                                                         
               MGLY --> SOAGX                                                                         
             IEPOXA --> SOAIE                                                                         
             IEPOXB --> SOAIE                                                                         
             IEPOXD --> SOAIE                                                                         
               LVOC --> LVOCOA                                                                        
-              MVKN --> LOx + IONITA                                                                  
-              R4N2 --> LOx + IONITA                                                                  
-            MONITS --> LOx + MONITA                                                                  
-            MONITU --> LOx + MONITA                                                                  
-             HONIT --> LOx + MONITA                                                                  
+              MVKN --> IONITA                                                                        
+              R4N2 --> IONITA                                                                        
+            MONITS --> MONITA                                                                        
+            MONITU --> MONITA                                                                        
+             HONIT --> MONITA                                                                        
               PYAC --> SOAGX                                                                         
               HMML --> SOAIE                                                                         
-              IHN1 --> LOx + IONITA                                                                  
-              IHN2 --> LOx + IONITA                                                                  
-              IHN3 --> LOx + IONITA                                                                  
-              IHN4 --> LOx + IONITA                                                                  
+              IHN1 --> IONITA                                                                        
+              IHN2 --> IONITA                                                                        
+              IHN3 --> IONITA                                                                        
+              IHN4 --> IONITA                                                                        
               ICHE --> SOAIE                                                                         
-              INPD --> LOx + IONITA                                                                  
-              INPB --> LOx + IONITA                                                                  
-               IDN --> 2 LOx + IONITA                                                                
-              ITCN --> LOx + IONITA                                                                  
-              ITHN --> LOx + IONITA                                                                  
-            MCRHNB --> LOx + IONITA                                                                  
-             MCRHN --> LOx + IONITA                                                                  
+              INPD --> IONITA                                                                        
+              INPB --> IONITA                                                                        
+               IDN --> IONITA                                                                        
+              ITCN --> IONITA                                                                        
+              ITHN --> IONITA                                                                        
+            MCRHNB --> IONITA                                                                        
+             MCRHN --> IONITA                                                                        
              NPHEN --> AONITA                                                                        
-                O3 --> O + O2                                                                        
-                O3 --> O1D + O2                                                                      
-                O2 --> 2 POx + 2 O                                                                   
+                O3 --> LOx + O + O2                                                                  
+                O3 --> LOx + O1D + O2                                                                
+                O2 --> 2 O                                                                           
                NO2 --> NO + O                                                                        
               H2O2 --> 2 OH                                                                          
                 MP --> CH2O + OH + HO2                                                               
@@ -764,14 +764,14 @@
               CH2O --> PCO + CO + H2                                                                 
               HNO3 --> NO2 + OH                                                                      
               HNO2 --> OH + NO                                                                       
-              HNO4 --> POx + OH + NO3                                                                
+              HNO4 --> OH + NO3                                                                      
               HNO4 --> NO2 + HO2                                                                     
                NO3 --> NO2 + O                                                                       
-               NO3 --> 2 LOx + NO + O2                                                               
+               NO3 --> NO + O2                                                                       
               N2O5 --> NO2 + NO3                                                                     
               ALD2 --> 0.88 PCO + 0.12 MCO3 + 0.88 CO + 0.88 MO2 + HO2                               
               ALD2 --> PCO + CH4 + CO                                                                
-               PAN --> 0.3 POx + 0.7 MCO3 + 0.3 MO2 + 0.7 NO2 + 0.3 NO3                              
+               PAN --> 0.7 MCO3 + 0.3 MO2 + 0.7 NO2 + 0.3 NO3                                        
               RCHO --> PCO + 0.07 A3O2 + 0.5 OTHRO2 + 0.27 B3O2 + CO + HO2                           
               ACET --> MCO3 + MO2                                                                    
               ACET --> PCO + CO + 2 MO2                                                              
@@ -797,7 +797,7 @@
                MAP --> MO2 + OH                                                                      
                Br2 --> 2 Br                                                                          
                BrO --> O + Br                                                                        
-              HOBr --> LOx + OH + Br                                                                 
+              HOBr --> OH + Br                                                                       
              BrNO3 --> NO3 + Br                                                                      
              BrNO3 --> NO2 + BrO                                                                     
              BrNO2 --> NO2 + Br                                                                      
@@ -810,11 +810,11 @@
                Cl2 --> 2 Cl                                                                          
                ClO --> O + Cl                                                                        
               OClO --> ClO + O                                                                       
-             Cl2O2 --> 2 LOx + ClOO + Cl                                                             
+             Cl2O2 --> ClOO + Cl                                                                     
              ClNO2 --> NO2 + Cl                                                                      
              ClNO3 --> NO3 + Cl                                                                      
              ClNO3 --> NO2 + ClO                                                                     
-              HOCl --> LOx + OH + Cl                                                                 
+              HOCl --> OH + Cl                                                                       
            CH3CCl3 --> 3 Cl                                                                          
               CCl4 --> 4 Cl                                                                          
              CFC11 --> 3 Cl                                                                          
@@ -831,9 +831,9 @@
              H2402 --> 2 Br                                                                          
               ClOO --> Cl + O2                                                                       
                 I2 --> 2 I                                                                           
-               HOI --> LOx + I + OH                                                                  
+               HOI --> I + OH                                                                        
                 IO --> I + O                                                                         
-               OIO --> 2 LOx + I + O2                                                                
+               OIO --> I + O2                                                                        
                INO --> I + NO                                                                        
               IONO --> I + NO2                                                                       
              IONO2 --> I + NO3                                                                       
@@ -846,26 +846,26 @@
               I2O3 --> OIO + IO                                                                      
                IBr --> I + Br                                                                        
                ICl --> I + Cl                                                                        
-               MPN --> POx + CH2O + HO2 + NO3                                                        
+               MPN --> CH2O + HO2 + NO3                                                              
                MPN --> MO2 + NO2                                                                     
              ATOOH --> MCO3 + CH2O + OH                                                              
-               N2O --> POx + O1D + N2                                                                
+               N2O --> O1D + N2                                                                      
                OCS --> PCO + CO + SO2                                                                
                SO4 --> 2 OH + SO2                                                                    
-                NO --> POx + N + O                                                                   
+                NO --> N + O                                                                         
                PIP --> RCHO + OH + HO2                                                               
              ETHLN --> PCO + CO + CH2O + NO2 + HO2                                                   
             MONITS --> MEK + NO2                                                                     
             MONITU --> RCHO + NO2                                                                    
              HONIT --> HAC + NO2                                                                     
               NITs --> HNO2                                                                          
-              NITs --> POx + NO2                                                                     
+              NITs --> NO2                                                                           
                NIT --> HNO2                                                                          
-               NIT --> POx + NO2                                                                     
-             MENO3 --> POx + CH2O + NO2 + HO2                                                        
-             ETNO3 --> POx + ALD2 + NO2 + HO2                                                        
-            IPRNO3 --> POx + ACET + NO2 + HO2                                                        
-            NPRNO3 --> POx + RCHO + NO2 + HO2                                                        
+               NIT --> NO2                                                                           
+             MENO3 --> CH2O + NO2 + HO2                                                              
+             ETNO3 --> ALD2 + NO2 + HO2                                                              
+            IPRNO3 --> ACET + NO2 + HO2                                                              
+            NPRNO3 --> RCHO + NO2 + HO2                                                              
               HMHP --> CH2O + 2 OH                                                                   
            HPETHNL --> PCO + CO + CH2O + OH + HO2                                                    
               PYAC --> CO2 + MCO3 + HO2                                                              
@@ -896,7 +896,7 @@
               INPD --> 0.841 INA + 0.159 ICN + OH + 0.159 HO2                                        
               INPD --> 0.841 IHOO1 + 0.159 IHOO4 + NO2                                               
                ICN --> 0.839 PCO + 0.161 IDC + 0.068 C4HVP1 + 0.128 C4HVP2 + 0.162 MVKPC + 0.... etc.
-               IDN --> 0.01 POx + 0.227 INA + 0.5 GLYC + 0.228 ICN + 0.05 MVK + 0.5 HAC + 0.0... etc.
+               IDN --> 0.227 INA + 0.5 GLYC + 0.228 ICN + 0.05 MVK + 0.5 HAC + 0.005 MACR + 0... etc.
              ICPDH --> PCO + 0.35 MVKDH + 0.15 MCRDH + 0.5 MCRHP + CO + 0.5 OH + 1.5 HO2             
              ICPDH --> 0.122 PCO + 0.122 MCRDH + 0.1 MVKHCB + 0.438 GLYX + 0.088 MGLY + 0.088... etc.
              IDHDP --> 0.75 ICPDH + 0.25 GLYC + 0.25 HAC + 1.25 OH + 0.75 HO2                        
