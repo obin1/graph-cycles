@@ -190,7 +190,9 @@ for i in range(0, len(listelem)):
 # rateslist = [('R249', 1.475685092915952e-97), ('R261', 2.180329006503819e-97), ('R263', 1.519736987858295e-97), ('R268',  1.229884761588709e-97)]
 
 # new rates from McMurdo_L35_20180930_2100.txt from Obin
-rateslist = [('R249', 711.349599979795), ('R261', 3567.26843635985), ('R263', 942740.565436074), ('R268', 3253.40633883372)]
+# rateslist = [('R249', 711.349599979795), ('R261', 3567.26843635985), ('R263', 942740.565436074), ('R268', 3253.40633883372)]
+rateslist = [('R249', 1), ('R261', 200000), ('R263', 500000), ('R268', 800000)]
+
 # for i in range(0, rxnnums): 
 rxnrates = []
 for edge in H.edges: 
@@ -209,7 +211,7 @@ edge_colors = rxnrates # r/(np.max(r)+1e-2)# range(2, 35)#
 # edge_alphas =  1+np.log10(rxnrates)/5
 # edge_alphas =  np.divide(1, rxnrates)
 # edge_alphas =  1+(rxnrates)/5
-cmap = plt.cm.plasma    
+cmap = plt.cm.plasma  
 
 
 
@@ -235,18 +237,22 @@ nodes = nx.draw_networkx_nodes(H, pos, node_size=node_sizes, node_color="lightbl
 nx.draw_networkx_labels(H, pos,font_size=6)
 
 edge_color = rxnrates
+norm = mpl.colors.Normalize(vmin=np.min(edge_colors), vmax=np.max(edge_colors))
+pc = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+pc.set_array(edge_colors)
+
 # nx.draw(MDG, pos, with_labels=True, edge_color = (1,1,1))
 # for e in G.edges:
 # edgesdrawn = []
 for e, ec in zip(H.edges, edge_color):
-    color = cmap(ec)
+    color = cmap(norm(ec))
     plt.gca().annotate("",
                        xy=pos[e[1]], 
                        xycoords='data',
                        xytext=pos[e[0]], 
                        textcoords='data',
                        arrowprops=dict(arrowstyle="->", color=color, # edge_color=edge_colors, 
-                                       # edge_vmin = np.min(edge_colors), edge_vmax = np.max(edge_colors), edge_cmap=cmap,
+                                        # edge_cmap=cmap,
                                        shrinkA=10, shrinkB=10,
                                        patchA=None, patchB=None,
                                        connectionstyle="arc3,rad=rrr".replace('rrr',str(rd.random()*0.5+0.1)))
@@ -254,13 +260,11 @@ for e, ec in zip(H.edges, edge_color):
     # edgesdrawn.append(e)
 
 
-norm = mpl.colors.Normalize(vmin=np.min(edge_colors), vmax=np.max(edge_colors))
 # pc = plt.cm.ScalarMappable(cmap=cmap)
 # pc.set_clim(vmin=np.min(edge_colors), vmax=np.max(edge_colors))
 # pc = mpl.collections.PatchCollection(e, cmap, norm=mpl.colors.LogNorm())
 # pc = plt.cm.ScalarMappable(cmap=cmap, norm=mpl.colors.LogNorm())
-pc = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
-pc.set_array(edge_colors)
+
 
 # plt.xlabel('text')
 # plt.gca().xaxis.xlabel('time (s)')

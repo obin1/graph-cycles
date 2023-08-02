@@ -15,7 +15,7 @@ import random as rd
 rd.seed(42)
 
 # Pulling biadjaceny matrix info from the A.csv file
-Acsvfile = open('/Users/emywli/Desktop/Research/Sources/A.csv','r')
+Acsvfile = open('BiadjacencyMatrix.csv','r')
 data = Acsvfile.read()
 Adata = data.split()
 # remove the extra commas between value entries in the A.csv file
@@ -51,7 +51,7 @@ n_spc = max(rows) # n_spc returning 287 when there are 291 species in txt file?
 n_rxn = max(cols)
 
 # obtaining species and converting to list from SPC_NAMES.txt
-my_file = open('/Users/emywli/Desktop/Research/Sources/SPC_NAMES.txt', "rt")
+my_file = open('SPC_NAMES.txt', "rt")
 data = my_file.read()
 species = data.split()
 my_file.close()

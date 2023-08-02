@@ -267,7 +267,8 @@ plt.colorbar(pc)
 #     nx.draw_networkx_edges(G, pos, connectionstyle=f'arc3, rad = {edge[2]["rad"]}')
 
 
-plt.savefig('/Users/emywli/Desktop/Research/MultigraphGradientNew.pdf')
+plt.savefig('MultigraphGradientNew.pdf')
+nx.write_edgelist(G, "JPM_edgelist.csv",  delimiter=',', data=False, encoding='utf-8')
 
 
 
