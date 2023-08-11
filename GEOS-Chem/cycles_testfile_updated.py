@@ -20,7 +20,7 @@ data = Acsvfile.read()
 Adata = data.split()
 # remove the extra commas between value entries in the A.csv file
 Adatalist = []
-for i in range(0, len(Adata)):
+for i in range(3, len(Adata)):
     if Adata[i] != ',':
         Adatalist.append(float(Adata[i])) # how to get more precision in the floating value?
 Acsvfile.close()
