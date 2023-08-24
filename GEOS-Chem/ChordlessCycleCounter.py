@@ -12,6 +12,7 @@ import pandas as pd
 import networkx as nx
 
 df = pd.read_csv("GCv14_Edgelist.csv")
+# df = pd.read_csv("/Users/psturm/Desktop/KGCv14_Edgelist.csv")
 
 
 # Create DiGraph
