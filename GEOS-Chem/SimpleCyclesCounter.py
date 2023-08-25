@@ -13,7 +13,7 @@ import pandas as pd
 import networkx as nx
 
 # df = pd.read_csv("GCv14_Edgelist.csv")
-df = pd.read_csv("/Users/psturm/Desktop/KPP-playground/GCv14/gckpp_EdgeList.csv")
+df = pd.read_csv("gckpp_EdgeList.csv")
 
 
 # Create DiGraph
