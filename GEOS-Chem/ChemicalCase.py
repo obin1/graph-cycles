@@ -50,5 +50,5 @@ class ChemicalCase:
                 self.reaction_rates.append(value)
     
 # load in a data example: assumed local, though a full path can be specified
-# filename = "Amazon_L1_20180101_2100.txt"
-# amazon_surface = ChemicalCase(filename)
+filepath = "samples/LosAngeles_L1_20180702_1900.txt"
+la_surface = ChemicalCase(filepath)
