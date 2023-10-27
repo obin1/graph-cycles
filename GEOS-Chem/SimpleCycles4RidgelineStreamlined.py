@@ -195,4 +195,4 @@ tiles.set_titles("")
 tiles.set(yticks=[], ylabel="")
 tiles.despine(bottom=True, left=True)
 
-plt.savefig('Noon Plots/Timescale Distributions/RidgelineLocationsL1NoonGrouped.pdf', bbox_inches="tight")
+# plt.savefig('Noon Plots/Timescale Distributions/RidgelineLocationsL1NoonGrouped.pdf', bbox_inches="tight")
