@@ -1,7 +1,6 @@
 *.[oax]
 *.mod
 *.map
-*.txt
 *.MOD
 *~*
 *.swp
@@ -20,5 +19,5 @@ Figures
 Figure/*
 images
 images/*
-#*.txt
 *.py
+#*.txt
