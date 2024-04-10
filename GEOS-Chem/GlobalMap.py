@@ -43,7 +43,7 @@ loc_name_lon_offsets[14] = 35
 # Congo needs to be reversed so that it is on the right side of the point
 loc_name_lon_offsets[8] = 26
 # El Djouf needs to be reversed so that it is on the right side of the point
-loc_name_lon_offsets[5] = 29
+loc_name_lon_offsets[5] = 30
 
 
 
