@@ -95,6 +95,7 @@ for i in range(len(cases)):
             loc_names[i], color = loc_colors[i], transform=ccrs.PlateCarree(),
             horizontalalignment='right', verticalalignment='bottom',backgroundcolor='none')
     txt.set_path_effects([PathEffects.withStroke(linewidth=0.7, foreground='black')])
+
 plt.draw()  
 
-plt.savefig('GlobalMap.png', dpi=300)
+plt.savefig('GlobalMap.png', dpi=300, bbox_inches='tight')
