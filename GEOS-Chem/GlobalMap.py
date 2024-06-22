@@ -98,4 +98,5 @@ for i in range(len(cases)):
 
 plt.draw()  
 
-plt.savefig('GlobalMap.png', dpi=300, bbox_inches='tight')
+# plt.savefig('GlobalMap.png', dpi=300, bbox_inches='tight')
+plt.savefig('figs/figure1.pdf',bbox_inches='tight')
