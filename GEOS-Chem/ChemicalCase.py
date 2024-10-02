@@ -1,6 +1,8 @@
 class ChemicalCase:
     def __init__(self, filename):
         self.filename = filename
+        # split the filename to get the location name
+        self.location = (filename.split('/')[-1]).split('_')[0]
         self.parse_file()
 
     def parse_file(self):
